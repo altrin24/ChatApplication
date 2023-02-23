@@ -20,7 +20,7 @@ class App extends Component {
   render(){
  
     return( <BrowserRouter>
-      <div>
+      <div style={{overflow:"hidden"}}>
       <Routes>
         <Route path="/chat"  element={<Chat/>} />
         <Route path="/register"  element={<Register/>}/>
